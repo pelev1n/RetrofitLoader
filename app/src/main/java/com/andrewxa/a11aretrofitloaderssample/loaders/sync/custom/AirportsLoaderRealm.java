@@ -13,14 +13,12 @@ import java.io.IOException;
 import java.util.List;
 
 import retrofit2.Call;
-/**
- * @author Artur Vasilov
- */
-public class AirportsLoader extends BaseLoader {
+
+public class AirportsLoaderRealm extends BaseLoader {
 
     private final String mGps;
 
-    public AirportsLoader(Context context, String gps) {
+    public AirportsLoaderRealm(Context context, String gps) {
         super(context);
         mGps = gps;
     }

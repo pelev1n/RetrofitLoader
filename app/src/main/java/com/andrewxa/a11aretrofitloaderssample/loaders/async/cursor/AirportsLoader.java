@@ -15,9 +15,6 @@ import retrofit2.Call;
 import retrofit2.Response;
 
 
-/**
- * @author Artur Vasilov
- */
 public class AirportsLoader extends BaseLoader {
 
     private final String mGps;

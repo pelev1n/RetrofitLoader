@@ -14,9 +14,7 @@ import android.text.TextUtils;
 import com.andrewxa.a11aretrofitloaderssample.database.tables.AirportsTable;
 
 
-/**
- * @author Artur Vasilov
- */
+
 public class AirportsContentProvider extends ContentProvider {
 
     private static final int AIRPORTS_TABLE = 1;

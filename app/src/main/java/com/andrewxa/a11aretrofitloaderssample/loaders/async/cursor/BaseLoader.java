@@ -3,11 +3,9 @@ package com.andrewxa.a11aretrofitloaderssample.loaders.async.cursor;
 import android.content.Context;
 import android.content.Loader;
 import android.database.Cursor;
+import android.support.v4.content.CursorLoader;
 
-/**
- * @author Artur Vasilov
- */
-public class BaseLoader extends Loader<Cursor> {
+public class BaseLoader extends CursorLoader {
 
     private Cursor mCursor;
 

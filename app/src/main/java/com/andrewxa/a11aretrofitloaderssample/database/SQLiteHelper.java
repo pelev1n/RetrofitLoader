@@ -7,9 +7,6 @@ import android.net.Uri;
 
 import com.andrewxa.a11aretrofitloaderssample.database.tables.AirportsTable;
 
-/**
- * @author Artur Vasilov
- */
 public class SQLiteHelper extends SQLiteOpenHelper {
 
     public static final String CONTENT_AUTHORITY = "ru.sample.retrofit.loaders";

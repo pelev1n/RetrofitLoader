@@ -10,9 +10,6 @@ import java.util.List;
 
 import io.realm.Realm;
 
-/**
- * @author Artur Vasilov
- */
 public class AirportsResponse extends Response {
 
     @Override

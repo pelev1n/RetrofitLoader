@@ -2,4 +2,5 @@
 <resources>
     <item name="airports_loader" type="id" />
     <item name="local_airports_loader" type="id" />
+    <item name="realm_loader" type="id" />
 </resources>

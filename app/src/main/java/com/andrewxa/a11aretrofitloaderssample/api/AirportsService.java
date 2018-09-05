@@ -8,9 +8,6 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
 
-/**
- * @author Artur Vasilov
- */
 public interface AirportsService {
 
     @GET("/places/coords_to_places_ru.json")

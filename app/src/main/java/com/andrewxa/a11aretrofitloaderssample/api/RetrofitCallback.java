@@ -5,9 +5,7 @@ import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 
-/**
- * @author Artur Vasilov
- */
+
 public abstract class RetrofitCallback<T> implements Callback<T> {
 
     @Override

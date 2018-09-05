@@ -4,9 +4,7 @@ import android.content.Context;
 import android.content.CursorLoader;
 import android.net.Uri;
 
-/**
- * @author Artur Vasilov
- */
+
 public class LocalAirportsLoader extends CursorLoader {
 
     public LocalAirportsLoader(Context context, Uri uri,

@@ -9,9 +9,6 @@ import com.andrewxa.a11aretrofitloaderssample.api.response.Response;
 import java.io.IOException;
 
 
-/**
- * @author Artur Vasilov
- */
 public abstract class BaseLoader extends AsyncTaskLoader<Response> {
 
     public BaseLoader(Context context) {

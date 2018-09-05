@@ -6,9 +6,6 @@ import android.database.Cursor;
 
 import java.io.IOException;
 
-/**
- * @author Artur Vasilov
- */
 public abstract class BaseLoader extends AsyncTaskLoader<Cursor> {
 
     public BaseLoader(Context context) {

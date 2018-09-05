@@ -7,9 +7,7 @@ import com.andrewxa.a11aretrofitloaderssample.content.Airport;
 import java.util.List;
 
 import io.realm.Realm;
-/**
- * @author Artur Vasilov
- */
+
 public class AirportsHelper {
 
     public static void save(@NonNull Realm realm, List<Airport> airports) {
